@@ -28,6 +28,10 @@ decode('dGVzdA') //=> "test"
 
 This module uses [TypeScript](https://github.com/Microsoft/TypeScript) and contains type definitions on NPM.
 
+## Related
+
+As of October 2018, https://github.com/brianloveswords/base64url exists but is using the node.js `Buffer` API, instead of falling back on `atob`/`btoa` in browsers. It also has some issues with TypeScript definitions (includes node.js types in browser) and old browser compatibility. This libraries API is smaller and simplier to avoid these problems.
+
 ## License
 
 Apache 2.0
