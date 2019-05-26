@@ -1,6 +1,6 @@
 {
   "name": "universal-base64url",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Small universal base64url functions for node.js and browsers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
